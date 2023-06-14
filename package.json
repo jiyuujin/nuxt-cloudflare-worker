@@ -4,14 +4,14 @@
   "description": "",
   "private": true,
   "scripts": {
-    "dev": "nuxi dev",
-    "build": "nuxi build",
+    "dev": "nuxt dev",
+    "build": "nuxt build",
     "start": "node .output/server/index.mjs",
-    "generate": "nuxi generate"
+    "generate": "nuxt generate"
   },
   "devDependencies": {
-    "@nuxtjs/svg": "^0.4.0",
-    "express": "^4.17.2",
-    "nuxt": "^3.0.0-rc.2"
+    "express": "^4.18.2",
+    "nuxt": "^3.5.3",
+    "vite-svg-loader": "^4.0.0"
   }
 }
