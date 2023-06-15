@@ -1,4 +1,12 @@
 {
   // https://v3.nuxtjs.org/concepts/typescript
-  "extends": "./.nuxt/tsconfig.json"
+  "extends": "./.nuxt/tsconfig.json",
+  "compilerOptions": {
+    "jsx": "react-jsx",
+    "target": "es2021",
+    "module": "es2022",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "types": ["@cloudflare/workers-types"]
+  }
 }
